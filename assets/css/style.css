@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    background: #4aaaa5;
+    font-size: 40px;
+    color: white;
+    float: left;
+    padding: 30px 10px 30px 10px;
+    margin-left: 60px; 
+    width: 33%;
+}
+
+#title {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: black;
+    text-align: left;
+    background-color: #4aaaa5;
+    display: inline;
+}
+
+nav {
+    float: right;
+    margin-right: 40px;
+}
+
+
+/* Key holdover color change */
+
+nav:hover .offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    height: 650px;
+    background-color: #ffffff
+}
+
+table {
+    border: 10px;
+    padding: 5px;
+    background-color: #4aaaa5;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -40px;
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer,
+.page-wrap:after {
+    /* .push must be the same height as footer */
+    height: 40px;
+}
+
+.site-footer {
+    background: #666666;
+}
